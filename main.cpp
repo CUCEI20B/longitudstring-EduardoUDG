@@ -6,7 +6,7 @@ int main() {
     string cadena;
 
     getline(cin, cadena);
-    cout << sizeof(cadena) << endl; 
+    cout << cadena.size() << endl; 
 
     return 0;
 }
