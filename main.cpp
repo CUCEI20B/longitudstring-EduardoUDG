@@ -3,7 +3,10 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    string cadena;
+
+    getline(cin,cadena);
+    cout << cadena.sizeof() << endl; 
 
     return 0;
 }
